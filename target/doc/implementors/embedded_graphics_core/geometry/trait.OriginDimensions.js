@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["embedded_graphics_framebuffer"] = [{"text":"impl <a class=\"trait\" href=\"embedded_graphics_core/geometry/trait.OriginDimensions.html\" title=\"trait embedded_graphics_core::geometry::OriginDimensions\">OriginDimensions</a> for <a class=\"struct\" href=\"embedded_graphics_framebuffer/struct.FrameBufferDisplay.html\" title=\"struct embedded_graphics_framebuffer::FrameBufferDisplay\">FrameBufferDisplay</a>","synthetic":false,"types":["embedded_graphics_framebuffer::FrameBufferDisplay"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

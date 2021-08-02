@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["errno"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/std/error/trait.Error.html\" title=\"trait std::error::Error\">Error</a> for <a class=\"struct\" href=\"errno/struct.Errno.html\" title=\"struct errno::Errno\">Errno</a>","synthetic":false,"types":["errno::Errno"]}];
+implementors["framebuffer"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/std/error/trait.Error.html\" title=\"trait std::error::Error\">Error</a> for <a class=\"struct\" href=\"framebuffer/struct.FramebufferError.html\" title=\"struct framebuffer::FramebufferError\">FramebufferError</a>","synthetic":false,"types":["framebuffer::FramebufferError"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

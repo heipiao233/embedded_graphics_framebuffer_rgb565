@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Line","Line primitive"],["Points","Iterator over all points on the line."],["StyledPixelsIterator","Styled line iterator."]]});

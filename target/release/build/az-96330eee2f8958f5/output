@@ -1,0 +1,6 @@
+$ mkdir -p "/home/vji2i0/Development/LVGLtty1_rust/embedded_graphics_framebuffer/target/release/build/az-96330eee2f8958f5/out/try_track_caller"
+$ cd "/home/vji2i0/Development/LVGLtty1_rust/embedded_graphics_framebuffer/target/release/build/az-96330eee2f8958f5/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/vji2i0/Development/LVGLtty1_rust/embedded_graphics_framebuffer/target/release/build/az-96330eee2f8958f5/out/try_track_caller/try_track_caller.rs"
+$ "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/vji2i0/Development/LVGLtty1_rust/embedded_graphics_framebuffer/target/release/build/az-96330eee2f8958f5/out/try_track_caller"
