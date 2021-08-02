@@ -1,1 +1,0 @@
-initSidebarItems({"trait":[["F32Ext","`f32` extension providing various arithmetic approximations and polyfills for `std` functionality."]]});

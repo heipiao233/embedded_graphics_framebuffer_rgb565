@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Translated","Translated pixel iterator."]]});

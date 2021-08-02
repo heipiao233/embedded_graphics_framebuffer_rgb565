@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["MockDisplay","Mock display struct"]],"trait":[["ColorMapping","Mapping between `char`s and colors."]]});
