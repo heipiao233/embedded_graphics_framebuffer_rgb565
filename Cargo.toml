@@ -1,6 +1,6 @@
 [package]
 name = "embedded_graphics_framebuffer"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["vji2i0 <vladislavmipt@gmail.com>"]
 description = "Framebuffer driver for lvgl-rs."
 license = "MIT"
