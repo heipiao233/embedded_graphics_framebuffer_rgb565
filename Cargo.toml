@@ -11,5 +11,5 @@ keywords = ["embedded", "graphics", "framebuffer"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-embedded-graphics = "0.7.1"
+embedded-graphics = "0.8.1"
 framebuffer = "0.3.0"
