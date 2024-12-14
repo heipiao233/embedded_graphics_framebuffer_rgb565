@@ -29,7 +29,7 @@
 //!```
 use core::convert::TryInto;
 use embedded_graphics::{
-    pixelcolor::{Rgb888, RgbColor},
+    pixelcolor::{Rgb565, RgbColor},
     prelude::*,
 };
 
@@ -49,7 +49,7 @@ impl FrameBufferDisplay{
 }
 
 impl DrawTarget for FrameBufferDisplay {
-    type Color = Rgb888;
+    type Color = Rgb565;
     type Error = core::convert::Infallible;
 
     // Map draw onto the frame buffer
@@ -66,9 +66,8 @@ impl DrawTarget for FrameBufferDisplay {
             let y: i32 = coord.y.try_into().unwrap();
             if 0 <= x && x < xres as i32 && 0 <= y && y < yres as i32  {
                 let index: u32 = (x as u32 + y as u32 * xres)*bytespp;
-                self.framebuffer[index as usize] = color.b();
-                self.framebuffer[index as usize + 1] = color.g();
-                self.framebuffer[index as usize + 2] = color.r();
+                self.framebuffer[index as usize] = color.b() + color.g() << 5;
+                self.framebuffer[index as usize + 1] = color.g() >> 3 + color.r() << 3;
             }
 
         }
